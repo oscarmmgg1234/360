@@ -16,9 +16,9 @@ function App() {
               <Navbar bg="dark" expand="lg" variant="dark" sticky={"top"}>
           <Navbar.Brand ><img src={require('./Assets /360Logo.png')} style={styles.logo}/><Link to={"/Home"}/></Navbar.Brand>
           <Nav className="mr-auto">
-          <Nav.Link  eventKey={"1"} href={'/Home'}>Home</Nav.Link>
-              <Nav.Link href="/Products"  >Products</Nav.Link>
-              <Nav.Link href="/About" eventKey={"3"}><Link to={"/Home"}/>About</Nav.Link>
+          <Nav.Link  eventKey={"1"} href={'/Home'} style={styles.NavLinks}>Home</Nav.Link>
+              <Nav.Link href="/Products"  style={styles.NavLinks}>Products</Nav.Link>
+              <Nav.Link href="/About" eventKey={"3"} style={styles.NavLinks}><Link to={"/Home"}/>About</Nav.Link>
             </Nav>
 
       </Navbar>
@@ -39,16 +39,16 @@ function App() {
 
 let styles = {
     logo:{
-        width: 55,
-        height: 55,
+        width: 50,
+        height: 50,
         borderRadius: 70,
-        marginRight: 20
+
 
     },
-    Home:{
-        color: "black",
+    NavLinks:{
+        fontSize: 22,
 
-}
+    }
 
 
 
