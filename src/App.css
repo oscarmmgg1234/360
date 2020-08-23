@@ -1,4 +1,11 @@
 .navbarr{
     height: 60px;
     resize: none;
+    
+}
+
+@media only screen and (max-width: 600px){
+.navbarr{
+
+    }
 }
