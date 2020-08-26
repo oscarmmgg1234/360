@@ -14,11 +14,11 @@ function App() {
   return (
       <>
           <BrowserRouter>
-              <Navbar bg="dark" expand="sm" variant="dark" className={"navbarr"}>
+              <Navbar bg="dark" expand="sm" variant="dark" position="absolute"className={"navbarr"}>
           <Navbar.Brand ><img src={require('./Assets /360Logo.png')} style={styles.logo}/><Link to={"/Home"}/></Navbar.Brand>
                   <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-          <Nav.Link  eventKey={"1"} href={'/Home'} style={styles.NavLinks}>Home</Nav.Link>
+          <Nav.Link eventKey={"1"} href={'/Home'} style={styles.NavLinks}>Home</Nav.Link>
               <NavDropdown title={"Product"} id={"basic-nav-dropdown"} style={styles.NavLinks}>
                   <NavDropdown.Item href={"WD"}><Link to={"/WD"}>Wash & Detail</Link></NavDropdown.Item>
                   <NavDropdown.Item href={"PW"}><Link to={"/PW"}>Polish</Link></NavDropdown.Item>
