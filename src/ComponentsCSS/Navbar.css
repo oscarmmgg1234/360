@@ -1,0 +1,21 @@
+.navbar{
+   flex-direction: row;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+}
+#navLinks{
+color: white;
+ font-size: 20px;
+
+
+}
+#navLinks:hover{
+ color: aquamarine;
+}
+.navDrop{
+ color: #ffa100;
+}
