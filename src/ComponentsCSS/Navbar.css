@@ -19,3 +19,9 @@ color: white;
 .navDrop{
  color: #ffa100;
 }
+#contactUS{
+ color: white;
+}
+#contactUS:hover{
+ color: aquamarine;
+}
