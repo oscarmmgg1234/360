@@ -1,5 +1,6 @@
 import React from "react";
 import '../RoutesCSS/Contact.css'
+import {Container} from "react-bootstrap";
 
 export default class Contact extends React.Component{
     constructor(props) {
@@ -8,12 +9,11 @@ export default class Contact extends React.Component{
     render (){
         return(
         <>
-           <div className={"header"}>
+        <div className={"header"}>
+<h1>oscar</h1>
+        </div>
+       </>
 
-               <h1>Contact Us</h1>
-
-           </div>
-            </>
         );
     }
 }

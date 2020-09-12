@@ -14,7 +14,7 @@ color: white;
 
 }
 #navLinks:hover{
- color: aquamarine;
+ color: red;
 }
 .navDrop{
  color: #ffa100;
@@ -23,5 +23,5 @@ color: white;
  color: white;
 }
 #contactUS:hover{
- color: aquamarine;
+ color: red;
 }
