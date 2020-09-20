@@ -6,6 +6,8 @@
     left: 0;
     right: 0;
     height: 65px;
+ display: flex;
+ position: sticky;
 }
 #logo1{
  width: 55px;

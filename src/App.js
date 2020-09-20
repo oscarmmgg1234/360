@@ -34,7 +34,7 @@ function App() {
 
                 <SideBar widthd={widthh} />
                 <Switch>
-                    <Route path="/Home" component={home}/>
+                    <Route path="/" component={home}/>
                     <Route path="/Wash&Detail" component={WD}/>
                     <Route path="/Polish&Wax" component={PW}/>
                     <Route path="/About" component={about}/>
