@@ -29,6 +29,7 @@ function App() {
         <>
 
             <BrowserRouter>
+
                 <Navbar onToggle={()=>setToggle(!toggle)}  />
 
 

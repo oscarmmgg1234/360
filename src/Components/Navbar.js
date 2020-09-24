@@ -35,10 +35,7 @@ const Navbarr = ({onToggle})=>{
 
                 </Nav>
 
-                   <Form inline id={'form'}>
-                       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                       <Button variant="outline-dark" style={{color: "red"}} > Search</Button>
-                   </Form>
+
                    <Nav.Link id={"navLinks"} href={"/Contact"}>Contact Us<Link to={"/Contact"}/></Nav.Link>
 
                    <img src={require('../Assets /360Logo.png')} id={"logo"}/>

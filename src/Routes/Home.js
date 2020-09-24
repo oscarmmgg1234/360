@@ -10,55 +10,46 @@ render() {
         JS AUTO DETAIL SUPPLIES OUTLET PD
         </div>
         <div className={"content"}>
-        <Container className={"Container"} fluid>
-            <Row className={"carousel"}>
-                <Col ></Col>
-                <Col lg={9}>
-                <Carousel interval={4000}>
+            <Carousel interval={4000}>
 
-                    <Carousel.Item>
+                <Carousel.Item>
 
-                        <img
-                            className={"carouselImage"}
-                            src={require('../Assets /Products/crystalCleaner.png')}
-                            alt="First slide"
-                        />
-                        <Carousel.Caption>
-                            <h3>360 Crystal Cleaner</h3>
+                    <img
+                        className={"carouselImage"}
+                        src={require('../Assets /Products/crystalCleaner.png')}
+                        alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>360 Crystal Cleaner</h3>
 
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className={"carouselImage"}
-                            src={require('../Assets /Products/BrazilianMist.png')}
-                            alt="second slide"
-                        />
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className={"carouselImage"}
+                        src={require('../Assets /Products/BrazilianMist.png')}
+                        alt="second slide"
+                    />
 
-                        <Carousel.Caption>
-                            <h3>360 Brazilian Mist</h3>
+                    <Carousel.Caption>
+                        <h3>360 Brazilian Mist</h3>
 
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className={"carouselImage"}
-                            src={require('../Assets /Products/HydroMist.png')}
-                            alt="Third slide"
-                        />
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className={"carouselImage"}
+                        src={require('../Assets /Products/HydroMist.png')}
+                        alt="Third slide"
+                    />
 
-                        <Carousel.Caption>
-                            <h3>360 Hydro Mist</h3>
+                    <Carousel.Caption>
+                        <h3>360 Hydro Mist</h3>
 
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
 
-                </Col>
-                <Col></Col>
-
-            </Row>
-        </Container>
         </div>
         <div className={"contact"}>
         contact

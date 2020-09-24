@@ -1,13 +1,16 @@
 .navbar{
    flex-direction: row;
     width: 100%;
-    background-color: black;
+    background-color: white;
     top: 0;
     left: 0;
     right: 0;
     height: 65px;
  display: flex;
  position: sticky;
+ z-index: 300;
+
+
 }
 #logo1{
  width: 55px;
@@ -41,7 +44,7 @@
 
 }
 #navLinks {
- color: white;
+ color: black;
  font-size: 20px;
 }
 #logo1{
